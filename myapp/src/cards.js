@@ -11,6 +11,9 @@ function Card(props)
                 <a href={props.link} target="">
                     <button className="beautiful-btn">Watch Now</button>
                 </a>
+                <a>
+                    <button> 👍 </button>
+                </a>
             </div>
         </>
     )

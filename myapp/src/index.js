@@ -23,7 +23,10 @@ root.render(
 
   Ydata.map((val)=>{
     return(
-      <Card imgsrc={val.imgsrc} link={val.link} title={val.title}></Card>
+
+      
+        <Card imgsrc={val.imgsrc} link={val.link} title={val.title}></Card>
+     
 
       )
   })

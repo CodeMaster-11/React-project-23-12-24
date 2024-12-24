@@ -90,7 +90,7 @@ body {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   height: 375px;
-  margin: 20px;
+  margin: 30px;
 }
 
 .stylish-container h2::after {
@@ -105,14 +105,16 @@ body {
 
 
 .navbar {
-  width: 100%;
+  width: 95%;
   padding: 15px 30px;
   background: #1e3c72; /* Dark blue background */
-  position: relative;
-  top: 0;
-  left: 0;
+  position:sticky ;
+  
+  top: 10px;
+  left: 10px;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  box-shadow: .5px 4px 6px rgba(107, 175, 243, 0.1);
 }
 
 .navbar-container {
@@ -169,3 +171,4 @@ body {
     margin-bottom: 10px;
   }
 }
+
