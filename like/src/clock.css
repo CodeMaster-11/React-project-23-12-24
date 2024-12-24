@@ -1,0 +1,14 @@
+div{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color:aquamarine; 
+    margin: 20px 0;
+  }

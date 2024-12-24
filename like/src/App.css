@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background: url("C:/Users/Kaustubh/Pictures/wallpaper/battery.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  
+}
+/* 
+div{
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  color:aquamarine; 
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 5px;
+}
+
+button.like {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+button.dislike {
+  background-color: #f44336; 
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+} */
