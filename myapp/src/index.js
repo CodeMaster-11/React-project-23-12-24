@@ -5,6 +5,7 @@ import Ydata from './ydata';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Card from './cards';
+import Header from './header';
 
 // function ncard(val){
 //   return(
@@ -17,8 +18,9 @@ import Card from './cards';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
- 
+ <Header></Header>
 {
+
   Ydata.map((val)=>{
     return(
       <Card imgsrc={val.imgsrc} link={val.link} title={val.title}></Card>
