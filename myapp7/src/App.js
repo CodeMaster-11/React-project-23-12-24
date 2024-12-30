@@ -8,7 +8,7 @@ const Name=createContext();     //after adding this
 const App=()=> {
   return (
     <>
-    <Name.Provider value={'ITVEDANT'}>
+    <Name.Provider value={'kaustubh'}>
         <CompA/>
     </Name.Provider>
 
