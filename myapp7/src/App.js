@@ -4,12 +4,15 @@ import './App.css';
 import CompA from './compA';
 
 const Name=createContext();     //after adding this 
+const Name1=createContext();     //after adding this 
 
 const App=()=> {
   return (
     <>
     <Name.Provider value={'ITVEDANT'}>
+      <Name1.Provider value={'Pimpri'}>
         <CompA/>
+      </Name1.Provider>
     </Name.Provider>
 
     </>
@@ -17,4 +20,4 @@ const App=()=> {
 }
 
 export default App;
-export {Name};
+export {Name , Name1};

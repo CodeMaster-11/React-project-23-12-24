@@ -1,4 +1,4 @@
-import { Name } from "./App"
+import { Name , Name1 } from "./App"
 
 const CompC=()=>{
     return(
@@ -6,7 +6,17 @@ const CompC=()=>{
           <Name.Consumer>
             {
                 (n)=>{
-                    return <h1>HELLO {n}</h1>
+                    return (
+                        <Name1.Consumer>
+                            {
+                                (n1)=>{
+                                    return (
+                                        <h1>well come {n} {n1} from C</h1>
+                                    )
+                                }
+                            }
+                        </Name1.Consumer>
+                    )
                 }
             }
           </Name.Consumer>  
