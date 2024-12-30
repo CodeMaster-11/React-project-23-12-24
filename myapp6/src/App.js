@@ -22,17 +22,23 @@ function App() {
     const v=e.target.value;
 
     setFname((preValue)=>{
-      if(n==='fname'){
-        return{
-          fname:v,
-          lname:preValue.lname
-        }
-      }
-      else{
-        return{
-          fname:preValue.fname,
-          lname:v
-        }
+      console.log(preValue)
+
+      // if(n==='fname'){
+      //   return{
+      //     fname:v,
+      //     lname:preValue.lname
+      //   }
+      // }
+      // else{
+      //   return{
+      //     fname:preValue.fname,
+      //     lname:v
+      //   }
+      // }
+      return{
+        ...preValue,
+        [n]:v 
       }
     })
   }
