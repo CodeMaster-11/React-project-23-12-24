@@ -10,7 +10,6 @@ const App=()=> {
   return (
     <>
     <Name.Provider value={'ITVEDANT'}>
-      <Name1.Provider value={'Pimpri'}>
         <CompA/>
       </Name1.Provider>
     </Name.Provider>
@@ -20,4 +19,4 @@ const App=()=> {
 }
 
 export default App;
-export {Name , Name1};
+export {Name};
