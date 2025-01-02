@@ -10,6 +10,7 @@ const App=()=> {
   return (
     <>
     <Name.Provider value={'ITVEDANT'}>
+      <Name1.Provider>
         <CompA/>
       </Name1.Provider>
     </Name.Provider>
